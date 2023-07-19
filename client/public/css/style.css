@@ -1,0 +1,160 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-width: 1024px;
+    overflow-x: hidden;
+
+}
+
+html {
+    height: 100%;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    height: 100%;
+
+}
+
+.input_div {
+
+}
+
+.users {
+
+}
+
+.inner-items {
+    padding: 24px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.inner-item {
+    width: 31.4%;
+    min-height: 314px;
+    box-shadow: 0 0 20px 0 #0000001A;
+
+}
+
+.item-box {
+    padding: 30px 0 0 27px;
+}
+
+.inner-title {
+    color: #262C40;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+
+
+}
+
+.item-email {
+    color: #8189A3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    align-items: center;
+
+}
+
+.item-phone {
+    color: #8189A3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    align-items: center;
+    padding: 30px 0 0 5px;
+
+}
+
+.item-phone span {
+    padding-bottom: 10px;
+    display: inline-block;
+    margin: 10px 0 0 20px;
+
+
+}
+
+.item-email span {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#customized-dialog-title {
+    color: #262C40;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: -10px;
+}
+
+.modal-box {
+    width: 400px;
+
+}
+
+.modal-box span {
+    display: inline-block;
+    width: 150px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    color: #262C40;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.modal-box p {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    color:#8189A3;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.modal-box-sub-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color:#262C40;
+}
+.modal-box-sub{
+    color: #8189A3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+.modal-box-sub p{
+    margin-bottom: 20px;
+}
